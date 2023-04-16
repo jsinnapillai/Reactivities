@@ -11,10 +11,6 @@ export const routes: RouteObject[] = [
     path: "/",
     element: <App />,
     children: [
-      // {
-      //   path: "",
-      //   element: <HomePage />,
-      // },
       {
         path: "activities",
         element: <ActivittyDashBoard />,

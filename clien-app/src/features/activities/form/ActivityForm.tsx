@@ -10,8 +10,6 @@ import { v4 as uuid } from "uuid";
 const ActivityForm = () => {
   const { activityStore } = useStore();
   const {
-    selectedActivity,
-
     createAcivity,
     updateActivity,
     loading,
